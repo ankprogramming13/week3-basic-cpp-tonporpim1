@@ -11,7 +11,11 @@ int main() {
   	cin >> num2;
   	cout << "Enter Third Number: ";
   	cin >> num3;
-  	sum = num1 + num2 + num3;
+  	cout << "Enter Forth Number: ";
+  	cin >> num4;
+  	cout << "Enter Firth Number: ";
+  	cin >> num5;
+  	sum = num1 + num2 + num3 + num4 + num5;
   	avg = sum / 3;
   	cout << "Average of the Three number is: ";
   	cout << avg;
